@@ -24,7 +24,11 @@ dist-ssr
 *.sw?
 
 .env
-functions
+.env.local
+
+# Ignore compiled functions
+functions/lib/
+functions/node_modules/
 
 firebase-debug.log
 firebase.json.backup
