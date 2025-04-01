@@ -19,6 +19,15 @@ A modern React + Firebase web application with secure authentication, GCP bucket
 ## 🔒 Security Notice:
 This repo **excludes the `/functions` folder**, which contains private admin only cloud functions for admin controls backend logic and sensitive GCP communication configuration.
 
+### 🔐 Environment Configuration
+
+This project uses Firebase Functions and Google Cloud Storage with the bucket name securely managed via environment variables.
+
+To run locally:
+
+1. Create `.env.local` in the root of `functions/`
+2. Add your bucket name: 
+
 ## 🛠 Replicated the Backend Instructions:
 1. Set up a new firebase project name it double edge storage or whatever you like.
 2. 

@@ -12,7 +12,7 @@ node_modules/
 # Firebase Functions: Secure Git Ignore backend services
 .env
 .env.local
-functions
+
 .runtimeconfig.json
 *.secret.*
 serviceAccount*.json
